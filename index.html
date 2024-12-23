@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO List</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1> My to Do list</h1>
+  <div id = 'div-one'>
+    <button id="addNewBtn" style="display: block;"> + </button>
+    <br><br>
+    <section class="addNew" style="display: none;">
+      <button id='cancel'>Cancel</button>
+
+      <form autocomplete="on">
+        <label for="task"> Task:</label>
+        <input type="text" id="task" autocomplete="on"><br><br>
+        <label for="due"> Due Date:</label>
+        <input type="date" id="due"><br><br>
+        <!-- <label for="due"> Status</label><br>
+    <input type="text" id ='status'><br> -->
+        <button type="submit" id='submit'> Submit</button>
+      </form>
+      <!-- <h3 id="status">Status</h3> -->
+    </section>
+    <section class="showListSec" style="display: block;">
+      <button id="showListBtn" style="display: block;">Show List</button>
+      <table></table>
+    </section>
+  </div>
+</body>
+
+</html>

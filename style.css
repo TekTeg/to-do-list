@@ -1,0 +1,72 @@
+body {
+  background-color: #302d2d;
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+#div-one {
+  display: flex;
+
+
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  background-color: #302d2d;
+  color: inherit;
+  border-color: orangered;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#addNewBtn {
+  font-size: 3cap;
+  height: 50px;
+  width: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 3px orangered solid;
+  height: 50px;
+  width: 100%;
+  background-color: #5c5858;
+  font: 1.5em sans-serif;
+  color: bisque;
+}
+
+.red {
+  color: orangered;
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.addNew {}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* tr:nth-child(even) {
+  background-color: #d6e7ee;
+} */
+
+tr {
+  display: block;
+  float: left;
+}
+
+th,
+td {
+  display: block;
+  height: 20px
+}
